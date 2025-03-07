@@ -1,0 +1,6 @@
+[
+  "backend/tests/test_get_response.py::test_get_response_stub",
+  "backend/tests/test_init_chat.py::test_dsl_interpreter",
+  "backend/tests/test_turn_chat.py::test_dsl_interpreter",
+  "backend/tests/test_variable_chat.py::test_dsl_interpreter"
+]

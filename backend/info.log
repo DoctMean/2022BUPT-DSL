@@ -1,0 +1,17 @@
+2024-11-29 11:34:00 - exampleLogger - INFO - Config Info
+2024-11-29 11:34:00 - exampleLogger - INFO - None
+2024-11-29 11:34:00 - exampleLogger - INFO - Config Info
+2024-11-29 11:34:00 - exampleLogger - INFO - None
+2024-11-29 11:36:28 - exampleLogger - INFO - Current Status: INIT
+2024-11-29 11:36:33 - exampleLogger - INFO - Current Status: INIT
+2024-11-29 11:36:36 - exampleLogger - INFO - Current Status: ASSIST
+2024-11-29 11:36:38 - exampleLogger - INFO - Current Status: SEARCH
+2024-11-29 11:36:38 - exampleLogger - INFO - Object ID: 364
+2024-11-29 11:36:42 - exampleLogger - INFO - Current Status: SEARCH
+2024-11-29 11:36:42 - exampleLogger - INFO - Object ID: 372
+2024-11-29 11:36:45 - exampleLogger - INFO - Current Status: SEARCH
+2024-11-29 11:36:49 - exampleLogger - INFO - Current Status: INIT
+2024-11-29 11:36:52 - exampleLogger - INFO - Current Status: PTT
+2024-11-29 11:36:54 - exampleLogger - INFO - Current Status: PTT
+2024-11-29 11:37:00 - exampleLogger - INFO - Current Status: PTT
+2024-11-29 11:37:09 - exampleLogger - INFO - Current Status: INIT

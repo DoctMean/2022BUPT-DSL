@@ -1,0 +1,33 @@
+
+%import common.ESCAPED_STRING   -> STR
+%import common.CNAME            -> IDENTIFIER
+
+%import common.WS
+%import common.COMMENT
+
+// 忽略空白符和注释
+%ignore WS
+%ignore COMMENT   
+COMMENT: /#[^\n]*/
+
+start: statement+
+
+statement: state_definition ":" expression_block
+
+state_definition: IDENTIFIER
+
+expression_block: (conditional_statement | default_statement)+
+
+conditional_statement: "when" condition (othercons)* "then" action_block ["transition" state_transition]
+
+othercons: "or" condition
+
+condition: STR
+
+action_block: "respond" response
+
+response: STR
+
+state_transition: IDENTIFIER
+
+default_statement: "otherwise" action_block ["transition" state_transition]

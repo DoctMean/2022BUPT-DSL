@@ -1,0 +1,19 @@
+{
+  "backend/tests/test_turn_httpx.py": true,
+  "backend/tests/test_init_httpx.py": true,
+  "backend/tests/test_turn_chat.py::test_dsl_interpreter": true,
+  "backend/tests/test_init_chat.py::test_dsl_interpreter": true,
+  "backend/tests/test_variable_chat.py::test_dsl_interpreter": true,
+  "backend/tests/test_turn_chat.py": true,
+  "backend/tests/test_init_chat.py": true,
+  "backend/tests/test_chat.py": true,
+  "backend/tests/test_http.py": true,
+  "backend/tests/test_chat_trans.py": true,
+  "backend/tests/test_variable_chat.py": true,
+  "backend/tests/test_search.py": true,
+  "backend/tests/test_chat copy.py": true,
+  "backend/tests/test_chat_default.py": true,
+  "backend/tests/test_http_trans.py": true,
+  "backend/tests/test_interpreter_search.py": true,
+  "backend/tests/test_interpreter_chat.py": true
+}
